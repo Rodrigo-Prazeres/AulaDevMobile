@@ -5,15 +5,14 @@
     android:orientation="vertical"
     android:padding="32dp"
     android:gravity="center">
-
-    <TextView
+    
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:src="@drawable/logo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Álcool ou Gasolina?"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:layout_marginBottom="32dp"/>
+        android:layout_height="wrap_content">
+    </ImageView>
+
 
     <EditText
         android:id="@+id/editAlcool"
